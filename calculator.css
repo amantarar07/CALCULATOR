@@ -1,0 +1,91 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+
+}
+#container{
+    width: 1500px;
+    height: 750px; 
+    background-image: url(mathematics\ back.jpg);
+    margin: 10px,auto;
+    
+
+}
+#calculator{
+
+    width: 400px;
+    height:600px;
+    background-color: cornsilk;
+    margin-top: 0;
+    margin-left: 470px;
+    top: 50px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow:9px 8px 6px 0px  grey;
+}
+#result{
+
+    height: 150px;
+    
+
+}
+#keyboard{
+    height: 390px;
+    margin-top: 30px;
+    margin-right: 22px;
+}
+#history{
+    text-align: right;
+    font-size: 25px;
+    margin-right: 12px;
+    padding-top: 20px;
+    color:grey;
+}
+#output{
+    text-align: right;
+    font-size: 35px;
+    height: 60px;
+    margin: 20px 20px;
+    
+}
+.operator, .number, .empty{
+
+    width: 55px;
+    height: 55px;
+    margin: 15px;
+    float: right;
+    border-radius: 50%;
+    border-width: 0px;
+    color: rgb(68, 64, 64);
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+.number, .empty{
+
+    background-color: honeydew;
+}
+.number,.operator{
+    cursor: pointer;
+}
+button:nth-child(4)
+{
+    background-color: hotpink;
+    font-size: 25px;
+}
+button:nth-child(8)
+{
+    background-color:blueviolet ;
+    font-size: 25px;
+}
+button:nth-child(12)
+{
+    background-color:orange ;
+    font-size: 25px;
+}
+button:nth-child(16)
+{
+    background-color: greenyellow;
+    font-size: 25px;
+}
